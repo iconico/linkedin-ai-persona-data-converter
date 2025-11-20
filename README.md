@@ -1,8 +1,14 @@
 # LinkedIn AI Persona Data Converter
 
+This project is the subject of a multi-part blog series. You can read about the data generation process in detail here:
+- **Blog Post:** [Building a LinkedIn ML Persona: Part 1 - The Data Harvest](https://www.nicowesterdale.com/blog/building-a-linkedin-ml-persona-part-1-the-data-harvest)
+- **Join the Discussion:** [Comment on LinkedIn](https://www.linkedin.com/posts/iconico_linkedin-is-training-its-ai-on-your-data-activity-7397258553821913088-7M2r)
+
+---
+
 This script transforms a raw LinkedIn data export into high-quality, structured `.jsonl` datasets, ready for fine-tuning a Large Language Model (LLM) to adopt a specific persona.
 
-It uses a powerful LLM (Google's Gemini 2.5 Flash) as a "depolisher" to generate two distinct types of training data from your polished, final-version texts (like your profile summary, posts, and comments).
+It uses a powerful LLM (Google's Gemini 1.5 Flash) as a "depolisher" to generate two distinct types of training data from your polished, final-version texts (like your profile summary, posts, and comments).
 
 ## Dataset Types
 
